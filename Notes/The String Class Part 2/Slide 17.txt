@@ -1,0 +1,3 @@
+String toUpperCase()
+
+word = word.toUpperCase

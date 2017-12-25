@@ -1,0 +1,14 @@
+public class Stewie2
+{
+    public static void main (String args[])
+    {
+        system.out.println("//////////////////////")
+    }
+    
+    public string victory;
+    public string backslash;
+    
+    victory = "|| Victory is mine! ||";
+    backslash = "\\\\\\\\\\\\\\\\\\\\\\";
+    
+    

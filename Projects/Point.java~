@@ -1,0 +1,63 @@
+//Jimmy Tran
+//AP Comp Sci
+//1st Period
+
+public class Point
+{
+  private double x;
+  private double y;
+  
+  //Sets default points.
+  public Point ()
+  {
+    x = 1;
+    y = 1;
+  }
+    
+  //Calculates the Manhattan Distance.
+  public double manhattanDistance(Point other)
+  {
+    return Math.abs(other.x-x) + Math.abs(other.y-y);
+  }
+  
+  public boolean isVertical(Point other)
+  {
+    if(x == other.x)
+    {
+      return true;
+    }
+    
+    else
+    {
+      return false;
+    }
+  }
+  
+  public boolean isHorizontal(Point other)
+  {
+    if(y == other.y)
+    {
+      return true;
+    }
+    
+    else
+    {
+      return false;
+    }
+  }
+  
+  public double slope(Point other)
+  {
+    return (other.y-y)/(other.x-x);
+  }
+  
+  public double distance(Point other)
+  {
+    return Math.sqrt((Math.pow((other.x-x),2) + Math.pow((other.y-y),2)));
+  }
+  
+  public String toString(Point other)
+  {
+    return ("The points are " + "(" + x + "," + y + ")" + "and (" + other.x + "," + other.y + ").");
+  }
+}

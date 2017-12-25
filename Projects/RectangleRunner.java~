@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class RectangleRunner
+{
+  public static void main(String[]args)
+  {
+    Rectangle test = new Rectangle();
+    Scanner keyboard = new Scanner(System.in);
+    
+    System.out.println("Enter length.");
+    double l = keyboard.next.Double();
+    System.out.println(l);
+    
+    System.out.println("Enter width.");
+    double w = keyboard.next.Double();
+    System.out.println(w);
+    
+  }
+}

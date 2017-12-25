@@ -1,0 +1,29 @@
+public class APLine
+{
+  public int a;
+  public int b;
+  public int c;
+  
+  public APLine (int a, int b, int c)
+  {
+    a=1;
+    b=1;
+    c=1;
+  }
+  
+  public double getSlope()
+  {
+    return (-1.0 * a) / b;
+  }
+  public boolean isOnLine()
+  {
+    if ((-1.0 * a) / b = 0)
+    {
+      true
+    }
+    else
+    {
+      false
+    }
+  }
+}

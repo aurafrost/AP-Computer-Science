@@ -1,0 +1,10 @@
+public class Method1Runner
+{
+  {publicstatic void main(String args[])
+  {
+    Methods1 test = new Methods1();
+    test.method();
+    test.method();
+    test.method();
+  }
+}

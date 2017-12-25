@@ -1,0 +1,4 @@
+STring toLowerCase()
+
+word = "Mrs. S. Arrington";
+word = word toLowerCase();
